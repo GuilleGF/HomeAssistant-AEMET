@@ -5,6 +5,7 @@ from datetime import datetime
 
 import homeassistant.helpers.config_validation as cv
 import voluptuous as vol
+from homeassistant.core import Config
 from homeassistant.components.weather import PLATFORM_SCHEMA
 from homeassistant.components.weather import WeatherEntity
 from homeassistant.const import (
